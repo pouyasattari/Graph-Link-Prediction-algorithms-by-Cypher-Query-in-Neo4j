@@ -7,7 +7,7 @@
   <img src="https://sattari.org/wp-content/uploads/2024/02/ScreenRecording2024-02-08at03.17.20-ezgif.com-video-to-gif-converter-1-copy-3.gif" alt="Cover Image" style="max-width:100%; max-height:300px; pointer-events: none;">
 </div>
 
-
+---------
 
 # ⚛︎ Graph Database Creation in Neo4j 
 
@@ -75,7 +75,11 @@ RETURN *
 
 This Cypher Query is accessible by [database creation Query.cypher](/Database%20Creation%20Query.cypher) 
 
-<br>
+<be>
+
+
+------
+
 
 ## Query to Show the Graph:
 
@@ -86,6 +90,9 @@ match (n) return n
 <div align="center">
     <img src="/Images/MyGraph.png" alt="Common Neighbors Formula" width="80%" />
 </div>
+
+--------
+
 
 # ⛓🖇 Link Prediction Algorithms  
 
@@ -105,6 +112,7 @@ The formula essentially sums the inverse logarithm of the degree of common neigh
 - **Interpretation:** A higher Adamic-Adar score implies a stronger relationship or connection likelihood between the nodes based on their shared neighbors.
 - **Usage:** The library provides a function to calculate the closeness between two nodes.
 
+***
 
 ## Common Neighbors Algorithm
 
@@ -122,6 +130,8 @@ The formula counts the number of shared neighbors between two nodes, where `N(x)
 - **Interpretation:** Higher values suggest a higher likelihood of forming a connection.
 - **Usage:** Function available in the library to calculate mutual connections.
 
+***
+
 ## Preferential Attachment Algorithm
 
 Preferential Attachment reflects the principle that the more connections a node has, the more likely it is to acquire new connections. This concept was popularized by Albert-László Barabási and Réka Albert and is crucial for understanding the growth of scale-free networks.
@@ -138,6 +148,8 @@ The formula calculates the product of the degrees (number of connections) of two
 - **Interpretation:** Higher values indicate a greater potential for link formation.
 - **Usage:** Function available in the library for assessing potential link formation.
 
+***
+
 ## Resource Allocation Algorithm
 
 Introduced in 2009 by Tao Zhou, Linyuan Lü, and Yi-Cheng Zhang, the Resource Allocation algorithm is a link prediction measure that simulates how resources would be distributed through shared neighbors between two nodes.
@@ -153,6 +165,8 @@ This algorithm sums the inverse of the degree of common neighbors, similar to th
 - **Purpose:** Assesses the closeness of nodes based on how resources would be allocated through their common connections.
 - **Interpretation:** Higher values suggest a closer relationship due to efficient resource sharing.
 - **Usage:** Function available in the library for calculating resource allocation efficiency.
+
+***
 
 ## Same Community Algorithm
 
@@ -196,6 +210,8 @@ This method provides a binary outcome: `0` indicates nodes are in different comm
 - **Interpretation:** A value of 1 indicates a strong likelihood of connection due to shared community membership.
 - **Usage:** Function in the library for detecting community-based connections.
 
+***
+
 ## Total Neighbors Algorithm
 
 Total Neighbors measures the closeness of nodes based on the total number of unique neighbors they have, underlining the idea that nodes with more connections are more likely to form new links.
@@ -212,7 +228,7 @@ This formula calculates the combined unique set of neighbors for two nodes, wher
 - **Interpretation:** Higher values indicate a greater likelihood of forming new connections.
 - **Usage:** Library function for assessing the extent of node connections.
 
-
+-------
 
 ## Let's Run the Algorithms Query
 
@@ -233,4 +249,27 @@ RETURN
     <img src="/Images/AlgorithmsResults.png" alt="Common Neighbors Formula" width="80%" />
 </div>
 
-#### Results in CSV is downloadable at [link prediction Algorithms RESULT csv](/link%20prediction%20Algorithms%20RESULT.csv) 
+-------
+
+#### Results in CSV is downloadable at [link prediction Algorithms RESULT csv](/link%20prediction%20Algorithms%20RESULT.csv)
+
+
+| AdamicAdar        | CommonNeighbors           | PreferentialAttachment  | ResourceAllocation        | SameCommunity           | TotalNeighbors  |
+| ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
+| 2.352934267515801      | 2.0 | 20.0 | 0.8333333333333333      | 0.0 | 6.0 |
+
+
+
+------
+------
+
+
+<div align="center" style="display: flex; justify-content: center;">
+  <a href="https://www.linkedin.com/in/pouya-sattari/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/144px-LinkedIn_icon.svg.png?20210220164014" height="20" alt="linkedin logo">
+  </a>
+  ·
+  <a href="https://www.sattari.org" target="_blank">
+    <img src="https://img.shields.io/badge/SATTARI.org-blue?logo=internetexplorer" alt="SATTARI.org">
+  </a>
+</div>
