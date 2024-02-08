@@ -82,7 +82,7 @@ match (n) return n
 ```
 
 <div align="center">
-    <img src="https://sattari.org/wp-content/uploads/2024/02/Screenshot-2024-02-08-at-03.19.22-1024x640.png" alt="Common Neighbors Formula" width="700" />
+    <img src="/Images/MyGraph.png" alt="Common Neighbors Formula" width="700" />
 </div>
 
 # ⛓🖇 Link Prediction Algorithms  
