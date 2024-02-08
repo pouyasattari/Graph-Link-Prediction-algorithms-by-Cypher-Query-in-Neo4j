@@ -179,25 +179,40 @@ The Same Community algorithm determines whether two nodes belong to the same com
 - **Interpretation:** Higher values indicate a greater likelihood of forming new connections.
 - **Usage:** Library function for assessing the extent of node connections.
 
-  #### Related Techniques and Metrics:
+
+### Related Techniques and Metrics:
 
 - **Production-quality:** Ensures that the algorithm is suitable for use in real-world applications.
-- **Conductance metric:** Measures the quality of a graph partitioning into communities.
-- **K-Core Decomposition:** Identifies the core structure of the network by peeling off layers of the graph.
-- **K-1 Coloring:** A graph coloring method that helps in distinguishing communities.
-- **K-Means Clustering:** A partitioning method that can be used to group nodes into communities based on their features.
-- **Label Propagation:** Utilizes node labels to propagate and determine communities rapidly.
-- **Leiden:** An algorithm that refines the partitioning of a network into communities for higher quality results.
-- **Local Clustering Coefficient:** Measures the degree to which nodes in a graph tend to cluster together.
-- **Louvain:** A popular method for detecting communities based on modularity optimization.
-- **Modularity metric:** Quantifies the strength of division of a network into communities.
-- **Modularity Optimization:** Aims to maximize the modularity metric for better community detection.
-- **Strongly Connected Components:** Identifies groups of nodes where every node is reachable from every other node in the group.
-- **Triangle Count:** Can indicate tightly-knit groups of nodes, suggesting potential communities.
-- **Weakly Connected Components:** Finds groups of nodes connected by paths regardless of direction.
+     - **Conductance metric:** Measures the quality of a graph partitioning into communities.
+
+     - **K-Core Decomposition:** Identifies the core structure of the network by peeling off layers of the graph.
+
+     - **K-1 Coloring:** A graph coloring method that helps in distinguishing communities.
+
+     - **K-Means Clustering:** A partitioning method that can be used to group nodes into communities based on their features.
+
+     - **Label Propagation:** Utilizes node labels to propagate and determine communities rapidly.
+
+     - **Leiden:** An algorithm that refines the partitioning of a network into communities for higher quality results.
+
+     - **Local Clustering Coefficient:** Measures the degree to which nodes in a graph tend to cluster together.
+
+     - **Louvain:** A popular method for detecting communities based on modularity optimization.
+
+     - **Modularity metric:** Quantifies the strength of division of a network into communities.
+
+     - **Modularity Optimization:** Aims to maximize the modularity metric for better community detection.
+
+     - **Strongly Connected Components:** Identifies groups of nodes where every node is reachable from every other node in the group.
+
+     - **Triangle Count:** Can indicate tightly-knit groups of nodes, suggesting potential communities.
+
+     - **Weakly Connected Components:** Finds groups of nodes connected by paths regardless of direction.
 - **Alpha:** A parameter in some algorithms that influences the detection of communities.
-- **Approximate Maximum k-cut:** A method for dividing the graph into k groups to maximize the weight of the edges within each group.
-- **Speaker-Listener Label Propagation (SLPA):** An algorithm that considers the dynamics of speaking and listening behaviors of nodes for community detection.
+
+     - **Approximate Maximum k-cut:** A method for dividing the graph into k groups to maximize the weight of the edges within each group.
+
+     - **Speaker-Listener Label Propagation (SLPA):** An algorithm that considers the dynamics of speaking and listening behaviors of nodes for community detection.
 
 
 </div>
