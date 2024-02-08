@@ -248,6 +248,10 @@ RETURN
 <div align="center">
     <img src="/Images/AlgorithmsResults.png" alt="Common Neighbors Formula" width="80%" />
 </div>
+<br>
+
+This Cypher Query is accessible by [link prediction algorithms Query.cypher](/link%20prediction%20algorithms%20Query.cypher) 
+
 
 -------
 
