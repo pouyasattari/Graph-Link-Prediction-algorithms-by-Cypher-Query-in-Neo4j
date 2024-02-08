@@ -82,7 +82,7 @@ match (n) return n
 ```
 
 <div align="center">
-    <img src="/Images/MyGraph.png" alt="Common Neighbors Formula" width="700" />
+    <img src="/Images/MyGraph.png" alt="Common Neighbors Formula" width="80%" />
 </div>
 
 # ⛓🖇 Link Prediction Algorithms  
@@ -227,4 +227,6 @@ RETURN
 ```
 
 
-
+<div align="center">
+    <img src="/Images/AlgorithmsResults.png" alt="Common Neighbors Formula" width="80%" />
+</div>
