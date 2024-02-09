@@ -173,13 +173,6 @@ This algorithm sums the inverse of the degree of common neighbors, similar to th
 The Same Community algorithm determines whether two nodes belong to the same community, which is crucial for understanding the structure of networks and predicting future connections based on community membership.
 
 
-  #### Key Points:
-
-- **Purpose:** Evaluates potential connections based on the breadth of an individual's network.
-- **Interpretation:** Higher values indicate a greater likelihood of forming new connections.
-- **Usage:** Library function for assessing the extent of node connections.
-
-
 ### Related Techniques and Metrics:
 
 - **Production-quality:** Ensures that the algorithm is suitable for use in real-world applications.
