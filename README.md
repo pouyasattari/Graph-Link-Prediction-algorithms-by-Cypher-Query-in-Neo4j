@@ -73,7 +73,7 @@ RETURN *
 ```
 <br>
 
-This Cypher Query is accessible by [database creation Query.cypher](/Database%20Creation%20Query.cypher) 
+ - This Cypher Query is accessible by [database creation Query.cypher](/Database%20Creation%20Query.cypher) 
 
 <be>
 
