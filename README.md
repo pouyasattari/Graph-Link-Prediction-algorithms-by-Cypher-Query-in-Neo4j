@@ -9,7 +9,9 @@
    - [Resource Allocation Algorithm](#resource-allocation-algorithm)
    - [Same Community Algorithm](#same-community-algorithm)
    - [Total Neighbors Algorithm](#total-neighbors-algorithm)
+4. [Let's Run the Algorithms Query](#lets-run-the-algorithms-query)
 
+-----
 
 <div align="center">
   <p>
