@@ -1,15 +1,16 @@
 
 # Table of Contents
 1. [ ⚛︎ Graph Database Creation in Neo4j](#%EF%B8%8E-graph-database-creation-in-neo4j)
-2. [ 🧠 Query to Show the Graph](#query-to-show-the-graph)
+2. [ 🧠 Query to Show the Graph](#-query-to-show-the-graph)
 3. [ 🧪 Link Prediction Algorithms](#-link-prediction-algorithms)
-   - [ ⚙️ Adamic-Adar Algorithm](#adamic-adar-algorithm)
-   - [ 👥 Common Neighbors Algorithm](#common-neighbors-algorithm)
-   - [ 🔗 Preferential Attachment Algorithm](#preferential-attachment-algorithm)
-   - [ 💡 Resource Allocation Algorithm](#resource-allocation-algorithm)
-   - [ 👫 Same Community Algorithm](#same-community-algorithm)
-   - [ 🌐 Total Neighbors Algorithm](#total-neighbors-algorithm)
-4. [ 🚀 Let's Run the Algorithms Query](#lets-run-the-algorithms-query)
+   - [ ⚙️ Adamic-Adar Algorithm](#%EF%B8%8F-adamic-adar-algorithm)
+   - [ 👥 Common Neighbors Algorithm](#-common-neighbors-algorithm)
+   - [ 🔗 Preferential Attachment Algorithm](#-preferential-attachment-algorithm)
+   - [ 💡 Resource Allocation Algorithm](#-resource-allocation-algorithm)
+   - [ 👫 Same Community Algorithm](#-same-community-algorithm)
+   - [ 🌐 Total Neighbors Algorithm](#-total-neighbors-algorithm)
+4. [ 🚀 Let's Run the Algorithms Query](#-lets-run-the-algorithms-query)
+5. [ 📟 Algorithms Results in CSV](#results-in-csv-is-downloadable-at-link-prediction-algorithms-result-csv)
 
 -----
 
@@ -96,7 +97,7 @@ RETURN *
 ------
 
 
-## Query to Show the Graph:
+## 🧠 Query to Show the Graph:
 
 ```ruby
 match (n) return n
@@ -111,7 +112,7 @@ match (n) return n
 
 # ⛓🖇 Link Prediction Algorithms  
 
-## Adamic-Adar Algorithm
+## ⚙️ Adamic-Adar Algorithm
 
 The Adamic-Adar algorithm was introduced in 2003 by Lada Adamic and Eytan Adar. It's designed to predict links in a social network by measuring the closeness between pairs of nodes. The algorithm calculates the similarity between nodes based on the commonality of their connections, using the following formula:
 
@@ -129,7 +130,7 @@ The formula essentially sums the inverse logarithm of the degree of common neigh
 
 ***
 
-## Common Neighbors Algorithm
+## 👥 Common Neighbors Algorithm
 
 The Common Neighbors algorithm is based on the premise that two nodes (individuals) that share a mutual friend or connection are more likely to be introduced than those without any mutual connections. This concept is fundamental in social network analysis for predicting potential links.
 
@@ -147,7 +148,7 @@ The formula counts the number of shared neighbors between two nodes, where `N(x)
 
 ***
 
-## Preferential Attachment Algorithm
+## 🔗 Preferential Attachment Algorithm
 
 Preferential Attachment reflects the principle that the more connections a node has, the more likely it is to acquire new connections. This concept was popularized by Albert-László Barabási and Réka Albert and is crucial for understanding the growth of scale-free networks.
 
@@ -165,7 +166,7 @@ The formula calculates the product of the degrees (number of connections) of two
 
 ***
 
-## Resource Allocation Algorithm
+## 💡 Resource Allocation Algorithm
 
 Introduced in 2009 by Tao Zhou, Linyuan Lü, and Yi-Cheng Zhang, the Resource Allocation algorithm is a link prediction measure that simulates how resources would be distributed through shared neighbors between two nodes.
 
@@ -183,7 +184,7 @@ This algorithm sums the inverse of the degree of common neighbors, similar to th
 
 ***
 
-## Same Community Algorithm
+## 👫 Same Community Algorithm
 
 The Same Community algorithm determines whether two nodes belong to the same community, which is crucial for understanding the structure of networks and predicting future connections based on community membership.
 
@@ -235,7 +236,7 @@ This method provides a binary outcome: `0` indicates nodes are in different comm
 
 ***
 
-## Total Neighbors Algorithm
+## 🌐 Total Neighbors Algorithm
 
 Total Neighbors measures the closeness of nodes based on the total number of unique neighbors they have, underlining the idea that nodes with more connections are more likely to form new links.
 
@@ -253,7 +254,7 @@ This formula calculates the combined unique set of neighbors for two nodes, wher
 
 -------
 
-## Let's Run the Algorithms Query
+## 🚀 Let's Run the Algorithms Query
 
 ```ruby
 MATCH (p1:Person {name: 'Hank'}), (p2:Person {name: 'Jack'})
