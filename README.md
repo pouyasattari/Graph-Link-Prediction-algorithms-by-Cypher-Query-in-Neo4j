@@ -1,15 +1,15 @@
 
 # Table of Contents
-1. [Graph Database Creation in Neo4j](#%EF%B8%8E-graph-database-creation-in-neo4j)
-2. [Query to Show the Graph](#query-to-show-the-graph)
-3. [Link Prediction Algorithms](#-link-prediction-algorithms)
-   - [Adamic-Adar Algorithm](#adamic-adar-algorithm)
-   - [Common Neighbors Algorithm](#common-neighbors-algorithm)
-   - [Preferential Attachment Algorithm](#preferential-attachment-algorithm)
-   - [Resource Allocation Algorithm](#resource-allocation-algorithm)
-   - [Same Community Algorithm](#same-community-algorithm)
-   - [Total Neighbors Algorithm](#total-neighbors-algorithm)
-4. [Let's Run the Algorithms Query](#lets-run-the-algorithms-query)
+1. [ ⚛︎ Graph Database Creation in Neo4j](#%EF%B8%8E-graph-database-creation-in-neo4j)
+2. [ 🧠 Query to Show the Graph](#query-to-show-the-graph)
+3. [ 🧪 Link Prediction Algorithms](#-link-prediction-algorithms)
+   - [ ⚙️ Adamic-Adar Algorithm](#adamic-adar-algorithm)
+   - [ 👥 Common Neighbors Algorithm](#common-neighbors-algorithm)
+   - [ 🔗 Preferential Attachment Algorithm](#preferential-attachment-algorithm)
+   - [ 💡 Resource Allocation Algorithm](#resource-allocation-algorithm)
+   - [ 👫 Same Community Algorithm](#same-community-algorithm)
+   - [ 🌐 Total Neighbors Algorithm](#total-neighbors-algorithm)
+4. [ 🚀 Let's Run the Algorithms Query](#lets-run-the-algorithms-query)
 
 -----
 
