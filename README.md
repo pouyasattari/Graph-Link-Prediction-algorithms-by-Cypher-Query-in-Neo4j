@@ -254,7 +254,7 @@ This formula calculates the combined unique set of neighbors for two nodes, wher
 
 -------
 
-## 🚀 Let's Run the Algorithms Query
+## 🚀 Let's Run the Algorithms
 
 ```ruby
 MATCH (p1:Person {name: 'Hank'}), (p2:Person {name: 'Jack'})
