@@ -279,7 +279,7 @@ This Cypher Query is accessible by [link prediction algorithms Query.cypher](/li
 
 -------
 
-#### Results in CSV is downloadable at [link prediction Algorithms RESULT csv](/link%20prediction%20Algorithms%20RESULT.csv)
+#### Results in a single CSV file which is downloadable at [link prediction Algorithms RESULT csv](/link%20prediction%20Algorithms%20RESULT.csv)
 
 
 | AdamicAdar        | CommonNeighbors           | PreferentialAttachment  | ResourceAllocation        | SameCommunity           | TotalNeighbors  |
@@ -289,7 +289,13 @@ This Cypher Query is accessible by [link prediction algorithms Query.cypher](/li
 
 
 ------
-------
+
+
+> [!TIP]
+> One of the interesting topics nowadays is using Neo4j as a Graph Database for ✅ Event Extraction by LLM models.
+> <br> So, keep researching this topic for your next step! <br> I also want to work on this topic for my Master's thesis. <br> I'd be really happy if we could connect if you're working in this area. <br> hello@sattari.org <br>
+
+
 
 
 <div align="center" style="display: flex; justify-content: center;">
@@ -301,3 +307,6 @@ This Cypher Query is accessible by [link prediction algorithms Query.cypher](/li
     <img src="https://img.shields.io/badge/SATTARI.org-blue?logo=internetexplorer" alt="SATTARI.org">
   </a>
 </div>
+------
+
+------
