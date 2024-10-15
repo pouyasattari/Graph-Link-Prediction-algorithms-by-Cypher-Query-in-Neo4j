@@ -307,6 +307,6 @@ This Cypher Query is accessible by [link prediction algorithms Query.cypher](/li
     <img src="https://img.shields.io/badge/SATTARI.org-blue?logo=internetexplorer" alt="SATTARI.org">
   </a>
 </div>
-------
+
 
 ------
